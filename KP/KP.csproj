@@ -76,6 +76,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\RegistratorForms\ClientAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\RegistratorForms\OrderAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\RegistratorForms\OrdersForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\RegistratorForms\RegistratorWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,11 +102,8 @@
     </Compile>
     <Compile Include="Classes\Boxes.cs" />
     <Compile Include="Classes\Client.cs" />
-    <Compile Include="Classes\CompletedMaterial.cs" />
-    <Compile Include="Classes\Detail.cs" />
     <Compile Include="Classes\Material.cs" />
     <Compile Include="Classes\Order.cs" />
-    <Compile Include="Classes\OrderComposition.cs" />
     <Compile Include="Classes\Services.cs" />
     <Compile Include="Classes\Worker.cs" />
     <Compile Include="Forms\AdminForms\AdminForm.xaml.cs">
@@ -102,6 +115,14 @@
     <Compile Include="Forms\AdminForms\WorkerAddForm.xaml.cs">
       <DependentUpon>WorkerAddForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\RegistratorForms\ClientAdd.xaml.cs" />
+    <Compile Include="Forms\RegistratorForms\OrderAdd.xaml.cs">
+      <DependentUpon>OrderAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistratorForms\OrdersForm.xaml.cs">
+      <DependentUpon>OrdersForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistratorForms\RegistratorWindow.xaml.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

@@ -13,6 +13,6 @@ namespace KP.Classes
         public int ServiceID { get; set; }
         [Required]
         public string ServiceName { get; set; }
-        public virtual ICollection<OrderComposition> OrderCompositions { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

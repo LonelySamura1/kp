@@ -17,6 +17,6 @@ namespace KP.Classes
         public string MaterialType { get; set; }
         [Required]
         public int Count { get; set; }
-        public virtual ICollection<CompletedMaterial> CompletedMaterials { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

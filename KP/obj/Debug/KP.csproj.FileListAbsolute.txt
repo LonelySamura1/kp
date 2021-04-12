@@ -24,6 +24,11 @@ C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\AdminForms\AdminForm.baml
 C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\AdminForms\WorkerAddForm.baml
 C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\AdminForms\Services.g.cs
 C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\AdminForms\Services.baml
-C:\Users\User\Downloads\KP\KP\bin\Debug\KP.exe.config
-C:\Users\User\Downloads\KP\KP\obj\Debug\KP.exe
-C:\Users\User\Downloads\KP\KP\obj\Debug\KP.pdb
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\ClientAdd.g.cs
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\RegistratorWindow.g.cs
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\ClientAdd.baml
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\RegistratorWindow.baml
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\OrdersForm.g.cs
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\OrdersForm.baml
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\OrderAdd.g.cs
+C:\Users\Nioken\source\repos\KP\KP\obj\Debug\Forms\RegistratorForms\OrderAdd.baml

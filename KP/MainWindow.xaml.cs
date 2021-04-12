@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WFAEntity.API;
 using WpfApp1.Classes;
+using WpfApp1.Forms.RegistratorForms;
 
 namespace KP
 {
@@ -69,6 +70,12 @@ namespace KP
                 {
                     AdminForm adminForm = new AdminForm();
                     adminForm.Show();
+                    this.Close();
+                }
+                if (tmp[0].Specialize == "Приемщик")
+                {
+                    RegistratorWindow RegistratorForm = new RegistratorWindow();
+                    RegistratorForm.Show();
                     this.Close();
                 }
             }

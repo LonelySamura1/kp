@@ -46,6 +46,7 @@ namespace KP.Forms.AdminForms
                 MyDBContext.DBContext.Services.Add(srv);
                 MyDBContext.DBContext.SaveChanges();
             }
+            UpdateList();
         }
 
         private void DeleteBtn_Click(object sender, RoutedEventArgs e)

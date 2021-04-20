@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\User\Desktop\Новая папка\KP\obj\Release\
+C:\Users\User\Source\Repos\kp\KP\obj\Release\
 KP
 none
 false
 TRACE
-C:\Users\User\Desktop\Новая папка\KP\App.xaml
+C:\Users\User\Source\Repos\kp\KP\App.xaml
 81757219466
 
 19400976124
-16220798731
+16-457133894
 Forms\AdminForms\AdminForm.xaml;Forms\AdminForms\Services.xaml;Forms\AdminForms\WorkerAddForm.xaml;Forms\RegistratorForms\ClientAdd.xaml;Forms\RegistratorForms\OrderAdd.xaml;Forms\RegistratorForms\OrdersForm.xaml;Forms\RegistratorForms\RegistratorWindow.xaml;MainWindow.xaml;
 
 True

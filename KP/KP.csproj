@@ -76,6 +76,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\MasterForms\CloseOrderForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\MasterForms\MasterForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\RegistratorForms\ClientAdd.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -114,6 +122,12 @@
     </Compile>
     <Compile Include="Forms\AdminForms\WorkerAddForm.xaml.cs">
       <DependentUpon>WorkerAddForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MasterForms\CloseOrderForm.xaml.cs">
+      <DependentUpon>CloseOrderForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MasterForms\MasterForm.xaml.cs">
+      <DependentUpon>MasterForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\RegistratorForms\ClientAdd.xaml.cs" />
     <Compile Include="Forms\RegistratorForms\OrderAdd.xaml.cs">

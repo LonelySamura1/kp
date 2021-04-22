@@ -10,7 +10,7 @@
         <StackPanel>
             <WrapPanel Margin="5">
                 <Button Content="Добавить" Click="Button_Click"/>
-                <Button Content="удалить" Margin="10,0,0,0"/>
+                <Button Content="удалить" Margin="10,0,0,0" Click="Button_Click_1"/>
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,50,0,0">

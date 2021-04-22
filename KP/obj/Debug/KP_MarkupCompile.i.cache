@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Nioken\source\repos\KP\KP\App.xaml
-81757219466
+10-539120333
 
-20-2113718641
+221872373756
 16-2109399072
-Forms\AdminForms\AdminForm.xaml;Forms\AdminForms\Services.xaml;Forms\AdminForms\WorkerAddForm.xaml;Forms\RegistratorForms\ClientAdd.xaml;Forms\RegistratorForms\OrderAdd.xaml;Forms\RegistratorForms\OrdersForm.xaml;Forms\RegistratorForms\RegistratorWindow.xaml;MainWindow.xaml;
+Forms\AdminForms\AdminForm.xaml;Forms\AdminForms\Services.xaml;Forms\AdminForms\WorkerAddForm.xaml;Forms\MasterForms\CloseOrderForm.xaml;Forms\MasterForms\MasterForm.xaml;Forms\RegistratorForms\ClientAdd.xaml;Forms\RegistratorForms\OrderAdd.xaml;Forms\RegistratorForms\OrdersForm.xaml;Forms\RegistratorForms\RegistratorWindow.xaml;MainWindow.xaml;
 
 True
 

@@ -1,4 +1,5 @@
 ﻿using KP.Forms;
+using KP.Forms.MasterForms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -75,6 +76,12 @@ namespace KP
                 if (tmp[0].Specialize == "Приемщик")
                 {
                     RegistratorWindow RegistratorForm = new RegistratorWindow();
+                    RegistratorForm.Show();
+                    this.Close();
+                }
+                if (tmp[0].Specialize == "Мастер")
+                {
+                    MasterForm RegistratorForm = new MasterForm();
                     RegistratorForm.Show();
                     this.Close();
                 }

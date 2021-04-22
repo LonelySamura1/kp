@@ -14,18 +14,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WFAEntity.API;
 
-namespace KP.Forms.RegistratorForms
+namespace KP.Forms.MasterForms
 {
     /// <summary>
-    /// Логика взаимодействия для OrdersForm.xaml
+    /// Логика взаимодействия для MasterForm.xaml
     /// </summary>
-    public partial class OrdersForm : Window
+    public partial class MasterForm : Window
     {
-        
-        public OrdersForm()
-        {
-            InitializeComponent();
-        }
         public struct OrderStruct
         {
             public int ID { get; set; }
@@ -37,7 +32,7 @@ namespace KP.Forms.RegistratorForms
             public string Material { get; set; }
             public string Service { get; set; }
             public string Worker { get; set; }
-            public OrderStruct(int ID,DateTime StartTime,DateTime? EndTime, double? price, string box, string Client, string Material, string Service, string Worker) : this()
+            public OrderStruct(int ID, DateTime StartTime, DateTime? EndTime, double? price, string box, string Client, string Material, string Service, string Worker) : this()
             {
                 this.ID = ID;
                 this.StartTime = StartTime;
@@ -68,7 +63,7 @@ namespace KP.Forms.RegistratorForms
         public void UpdateGrid()
         {
             var tmp = MyDBContext.DBContext.Orders.ToList();
-            for(int i = 0; i < tmp.Count; i++)
+            for (int i = 0; i < tmp.Count; i++)
             {
                 string tempBox = tmp[i].Boxes.BoxType;
                 string tempClient = tmp[i].Client.Surname + " " + tmp[i].Client.Name + " " + tmp[i].Client.Lastname;
@@ -89,20 +84,31 @@ namespace KP.Forms.RegistratorForms
             OrdersGrid.Columns[8].Header = "Сотрудник";
 
         }
+        public MasterForm()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             UpdateGrid();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            OrderAdd oa = new OrderAdd(this);
-            oa.ShowDialog();
-        }
-
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            OrderStruct temp = (OrderStruct)this.OrdersGrid.SelectedItem;
+            var req = (from t in MyDBContext.DBContext.Orders.ToList<Classes.Order>()
+                       where t.OrderID == temp.ID
+                       select t).ToList();
+            CloseOrderForm cof = new CloseOrderForm(req[0], this);
+            cof.ShowDialog();
         }
     }
 }

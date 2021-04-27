@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\source\repos\kp2\KP\App.xaml
-10-539120333
+11-1303107153
 
-22644487422
+23-1623090743
 161612903098
-Forms\AdminForms\AdminForm.xaml;Forms\AdminForms\Services.xaml;Forms\AdminForms\WorkerAddForm.xaml;Forms\MasterForms\CloseOrderForm.xaml;Forms\MasterForms\MasterForm.xaml;Forms\RegistratorForms\ClientAdd.xaml;Forms\RegistratorForms\OrderAdd.xaml;Forms\RegistratorForms\OrdersForm.xaml;Forms\RegistratorForms\RegistratorWindow.xaml;MainWindow.xaml;
+Forms\AdminForms\AdminForm.xaml;Forms\MasterForms\MaterialsAdd.xaml;Forms\AdminForms\Services.xaml;Forms\AdminForms\WorkerAddForm.xaml;Forms\MasterForms\CloseOrderForm.xaml;Forms\MasterForms\MasterForm.xaml;Forms\RegistratorForms\ClientAdd.xaml;Forms\RegistratorForms\OrderAdd.xaml;Forms\RegistratorForms\OrdersForm.xaml;Forms\RegistratorForms\RegistratorWindow.xaml;MainWindow.xaml;
 
 True
 

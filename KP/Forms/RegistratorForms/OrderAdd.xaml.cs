@@ -62,6 +62,7 @@ namespace KP.Forms.RegistratorForms
             MyDBContext.DBContext.Orders.Add(ord);
             MyDBContext.DBContext.SaveChanges();
             UpdateGrid();
+            MessageBox.Show("Добавлено!");
         }
     }
 }

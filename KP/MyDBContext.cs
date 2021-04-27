@@ -6,7 +6,7 @@ namespace WFAEntity.API
 {
     class MyDBContext : DbContext
     {
-        public MyDBContext() : base("LocalString")
+        public MyDBContext() : base("MyConnectString")
         {
 
         }

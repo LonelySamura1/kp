@@ -1,4 +1,5 @@
 ﻿using KP.Classes;
+using KP.Forms.AdminForms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -109,6 +110,12 @@ namespace KP.Forms.MasterForms
                        select t).ToList();
             CloseOrderForm cof = new CloseOrderForm(req[0], this);
             cof.ShowDialog();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MaterialsAdd materialsAdd = new MaterialsAdd();
+            materialsAdd.ShowDialog();
         }
     }
 }
